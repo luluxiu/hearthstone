@@ -1,0 +1,19 @@
+<ehcache>
+    <diskStore path="java.io.tmpdir/Tmp_Ehcache" />
+
+    <defaultCache maxElementsInMemory="10000" eternal="false"
+                  overflowToDisk="false" timeToIdleSeconds="0" timeToLiveSeconds="0"
+                  diskPersistent="false" diskExpiryThreadIntervalSeconds="120" />
+
+    <cache name="cache.hearthstone" maxElementsInMemory="1000" eternal="false"
+           overflowToDisk="true" timeToIdleSeconds="300" timeToLiveSeconds="600"/>
+
+
+    <cache name="cache.hearthstone.vcode" maxElementsInMemory="1000" eternal="false"
+           overflowToDisk="true" timeToIdleSeconds="300" timeToLiveSeconds="300"/>
+
+    <cache name="cache.hearthstone.user" maxElementsInMemory="1000" eternal="false"
+           overflowToDisk="true" timeToIdleSeconds="400" timeToLiveSeconds="600"/>
+
+
+</ehcache>
